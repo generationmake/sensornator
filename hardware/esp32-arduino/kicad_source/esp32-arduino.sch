@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "esp32 arduino"
-Date "2018-12-10"
+Date "2018-12-12"
 Rev "1.0"
 Comp "generationmake"
 Comment1 ""
@@ -81,17 +81,6 @@ Wire Wire Line
 	9750 4050 10500 4050
 Wire Wire Line
 	10500 4850 10100 4850
-$Comp
-L mechanical-switches:TAST_HOR SW2
-U 1 1 5B63E467
-P 9750 5800
-F 0 "SW2" H 9750 6000 60  0000 C CNN
-F 1 "TAST_HOR" H 9750 5600 60  0000 C CNN
-F 2 "mechanical-switches:PCB_PUSH" H 10600 5850 60  0001 C CNN
-F 3 "" H 10600 5850 60  0000 C CNN
-	1    9750 5800
-	1    0    0    -1  
-$EndComp
 $Comp
 L power-supply:GND #PWR041
 U 1 1 5B63E57C
@@ -344,17 +333,6 @@ Wire Wire Line
 Wire Wire Line
 	6500 5200 6500 5300
 $Comp
-L devices:SW_PUSH SW1
-U 1 1 5C0E7032
-P 8900 5100
-F 0 "SW1" H 8900 5355 50  0000 C CNN
-F 1 "SW_PUSH" H 8900 5264 50  0000 C CNN
-F 2 "mechanical-switches:smd_push" H 8900 5100 50  0000 C CNN
-F 3 "" H 8900 5100 50  0000 C CNN
-	1    8900 5100
-	1    0    0    -1  
-$EndComp
-$Comp
 L power-supply:GND #PWR040
 U 1 1 5C0E71C9
 P 9300 5150
@@ -370,7 +348,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 5100 9300 5150
 Wire Wire Line
-	8600 5100 8000 5100
+	8600 5100 8500 5100
 Wire Wire Line
 	8000 5100 8000 4750
 Wire Wire Line
@@ -549,7 +527,7 @@ U 1 1 5C166AC7
 P 5150 6950
 F 0 "CON1" H 6327 7128 50  0000 L CNN
 F 1 "Micro_SDCard" H 6327 7030 59  0000 L CNN
-F 2 "mechanical-connectors:microsd_socket" H 5550 7300 50  0000 C CNN
+F 2 "CON_wuerth:WE_693072010801" H 5550 7300 50  0000 C CNN
 F 3 "" H 5350 6950 60  0000 C CNN
 	1    5150 6950
 	1    0    0    -1  
@@ -624,13 +602,13 @@ Wire Wire Line
 Wire Wire Line
 	3500 7150 4500 7150
 Text Label 3600 6650 0    60   ~ 0
-SPI_CS_SD
+SPI_CS_SD_R
 Text Label 3600 6750 0    60   ~ 0
-SPI_MOSI
+SPI_MOSI_R
 Text Label 3600 6950 0    60   ~ 0
-SPI_CLK
+SPI_CLK_R
 Text Label 3600 7150 0    60   ~ 0
-SPI_MISO
+SPI_MISO_R
 $Comp
 L IC_voltage_supervisor:TPS383X U1
 U 1 1 5C0DDEF1
@@ -745,7 +723,7 @@ U 1 1 5C1083C2
 P 2850 4250
 F 0 "Q1" H 3041 4296 50  0000 L CNN
 F 1 "Q_NMOS_GSD" H 3041 4205 50  0000 L CNN
-F 2 "SOT_TO:SOT-23" H 3050 4350 50  0000 C CNN
+F 2 "SOT_TO:SOT-23" H 3050 4350 50  0001 C CNN
 F 3 "" H 2850 4250 50  0000 C CNN
 	1    2850 4250
 	-1   0    0    -1  
@@ -756,7 +734,7 @@ U 1 1 5C10856D
 P 3700 4250
 F 0 "Q2" H 3891 4296 50  0000 L CNN
 F 1 "Q_NMOS_GSD" H 3891 4205 50  0000 L CNN
-F 2 "SOT_TO:SOT-23" H 3900 4350 50  0000 C CNN
+F 2 "SOT_TO:SOT-23" H 3900 4350 50  0001 C CNN
 F 3 "" H 3700 4250 50  0000 C CNN
 	1    3700 4250
 	-1   0    0    -1  
@@ -869,7 +847,7 @@ U 1 1 5C1608DF
 P 800 1200
 F 0 "P1" V 375 1124 50  0000 C CNN
 F 1 "USB_OTG" V 466 1124 50  0000 C CNN
-F 2 "mechanical-connectors:USB_Micro-B" V 750 1100 50  0000 C CNN
+F 2 "mechanical-connectors:USB_Micro-B" V 750 1100 50  0001 C CNN
 F 3 "" V 750 1100 50  0000 C CNN
 	1    800  1200
 	0    -1   1    0   
@@ -1308,7 +1286,7 @@ U 1 1 5C33D624
 P 3350 3350
 F 0 "BT1" H 3468 3396 50  0000 L CNN
 F 1 "Battery" H 3468 3305 50  0000 L CNN
-F 2 "" V 3350 3390 50  0000 C CNN
+F 2 "MECH_battery_holder:KEYSTONE_1043" V 3350 3390 50  0001 C CNN
 F 3 "" V 3350 3390 50  0000 C CNN
 	1    3350 3350
 	1    0    0    -1  
@@ -1319,7 +1297,7 @@ U 1 1 5C33D8BF
 P 3000 3150
 F 0 "F1" H 3000 3335 50  0000 C CNN
 F 1 "F_Small" H 3000 3244 50  0000 C CNN
-F 2 "fuse_holders_and_fuses:Fuse_SMD1206_Reflow" H 3000 3150 50  0000 C CNN
+F 2 "fuse_holders_and_fuses:Fuse_SMD1206_Reflow" H 3000 3150 50  0001 C CNN
 F 3 "" H 3000 3150 50  0000 C CNN
 	1    3000 3150
 	1    0    0    -1  
@@ -1582,4 +1560,100 @@ Text Label 1250 6200 0    60   ~ 0
 ARDUINO_2
 NoConn ~ 4500 7250
 NoConn ~ 4500 6550
+$Comp
+L mechanical-switches:TAST_VER SW1
+U 1 1 5C112437
+P 8900 5000
+F 0 "SW1" H 8900 5337 60  0000 C CNN
+F 1 "TAST_VER" H 8900 5231 60  0000 C CNN
+F 2 "mechanical-switches:WE_430182050816" H 9750 5050 60  0001 C CNN
+F 3 "" H 9750 5050 60  0000 C CNN
+	1    8900 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L mechanical-switches:TAST_VER SW2
+U 1 1 5C1125D9
+P 9750 5800
+F 0 "SW2" H 9750 6137 60  0000 C CNN
+F 1 "TAST_VER" H 9750 6031 60  0000 C CNN
+F 2 "mechanical-switches:WE_430182050816" H 10600 5850 60  0001 C CNN
+F 3 "" H 10600 5850 60  0000 C CNN
+	1    9750 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 5000 8500 5000
+Wire Wire Line
+	8500 5000 8500 5100
+Connection ~ 8500 5100
+Wire Wire Line
+	8500 5100 8000 5100
+Wire Wire Line
+	9200 5000 9300 5000
+Wire Wire Line
+	9300 5000 9300 5100
+Connection ~ 9300 5100
+Text Label 2800 3750 0    60   ~ 0
+PROG
+$Comp
+L devices:R_1206 R12
+U 1 1 5C1308D0
+P 3400 6650
+F 0 "R12" H 3430 6670 50  0000 L CNN
+F 1 "100R" H 3430 6610 50  0000 L CNN
+F 2 "resistors:R_0603" H 3400 6500 50  0001 C CNN
+F 3 "" H 3400 6650 50  0000 C CNN
+	1    3400 6650
+	0    1    1    0   
+$EndComp
+$Comp
+L devices:R_1206 R13
+U 1 1 5C130A58
+P 3400 6750
+F 0 "R13" H 3430 6770 50  0000 L CNN
+F 1 "100R" H 3430 6710 50  0000 L CNN
+F 2 "resistors:R_0603" H 3400 6600 50  0001 C CNN
+F 3 "" H 3400 6750 50  0000 C CNN
+	1    3400 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L devices:R_1206 R14
+U 1 1 5C130AC0
+P 3400 6950
+F 0 "R14" H 3430 6970 50  0000 L CNN
+F 1 "100R" H 3430 6910 50  0000 L CNN
+F 2 "resistors:R_0603" H 3400 6800 50  0001 C CNN
+F 3 "" H 3400 6950 50  0000 C CNN
+	1    3400 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L devices:R_1206 R15
+U 1 1 5C130B2A
+P 3400 7150
+F 0 "R15" H 3430 7170 50  0000 L CNN
+F 1 "100R" H 3430 7110 50  0000 L CNN
+F 2 "resistors:R_0603" H 3400 7000 50  0001 C CNN
+F 3 "" H 3400 7150 50  0000 C CNN
+	1    3400 7150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2450 6650 3300 6650
+Wire Wire Line
+	2450 6750 3300 6750
+Wire Wire Line
+	2450 6950 3300 6950
+Wire Wire Line
+	2450 7150 3300 7150
+Text Label 2550 6650 0    60   ~ 0
+SPI_CS_SD
+Text Label 2550 6750 0    60   ~ 0
+SPI_MOSI
+Text Label 2550 6950 0    60   ~ 0
+SPI_CLK
+Text Label 2550 7150 0    60   ~ 0
+SPI_MISO
 $EndSCHEMATC
