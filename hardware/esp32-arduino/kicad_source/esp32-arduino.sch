@@ -1277,9 +1277,9 @@ Wire Wire Line
 Wire Wire Line
 	6150 1100 5600 1100
 Text Label 5800 1000 0    60   ~ 0
-TX
+TX_R
 Text Label 5800 1100 0    60   ~ 0
-RX
+RX_R
 $Comp
 L devices:Battery BT1
 U 1 1 5C33D624
@@ -1328,8 +1328,6 @@ Wire Wire Line
 	3350 3500 3350 3550
 Wire Wire Line
 	8350 3850 7750 3850
-Wire Wire Line
-	8350 3950 7750 3950
 Text Label 7900 3850 0    60   ~ 0
 RX
 Wire Wire Line
@@ -1362,8 +1360,6 @@ Text Label 5650 4050 0    60   ~ 0
 ADC_3
 Wire Wire Line
 	9750 3850 10500 3850
-Wire Wire Line
-	9750 3950 10500 3950
 Text Label 9850 3850 0    60   ~ 0
 ADC_2
 Text Label 9850 3950 0    60   ~ 0
@@ -1467,8 +1463,6 @@ Wire Wire Line
 	8350 4250 7750 4250
 Wire Wire Line
 	8350 4150 7750 4150
-Wire Wire Line
-	8350 3650 7750 3650
 Wire Wire Line
 	8350 3550 7750 3550
 Wire Wire Line
@@ -1656,4 +1650,157 @@ Text Label 2550 6950 0    60   ~ 0
 SPI_CLK
 Text Label 2550 7150 0    60   ~ 0
 SPI_MISO
+$Comp
+L devices:R_1206 R18
+U 1 1 5C11A705
+P 8550 3500
+F 0 "R18" H 8580 3520 50  0000 L CNN
+F 1 "1k" H 8580 3460 50  0000 L CNN
+F 2 "resistors:R_0603" H 8550 3350 50  0001 C CNN
+F 3 "" H 8550 3500 50  0000 C CNN
+	1    8550 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L devices:R_1206 R19
+U 1 1 5C11A9D7
+P 8750 3500
+F 0 "R19" H 8780 3520 50  0000 L CNN
+F 1 "1k" H 8780 3460 50  0000 L CNN
+F 2 "resistors:R_0603" H 8750 3350 50  0001 C CNN
+F 3 "" H 8750 3500 50  0000 C CNN
+	1    8750 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power-supply:+3V3 #PWR0101
+U 1 1 5C11AAD5
+P 8550 3300
+F 0 "#PWR0101" H 8550 3150 50  0001 C CNN
+F 1 "+3V3" V 8565 3428 50  0000 L CNN
+F 2 "" H 8550 3300 50  0000 C CNN
+F 3 "" H 8550 3300 50  0000 C CNN
+	1    8550 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 3950 8750 3950
+Wire Wire Line
+	7750 3650 8550 3650
+Wire Wire Line
+	8550 3600 8550 3650
+Connection ~ 8550 3650
+Wire Wire Line
+	8550 3650 8950 3650
+Wire Wire Line
+	8750 3600 8750 3950
+Connection ~ 8750 3950
+Wire Wire Line
+	8750 3950 8950 3950
+$Comp
+L power-supply:+3V3 #PWR0102
+U 1 1 5C159A9D
+P 8750 3300
+F 0 "#PWR0102" H 8750 3150 50  0001 C CNN
+F 1 "+3V3" V 8765 3428 50  0000 L CNN
+F 2 "" H 8750 3300 50  0000 C CNN
+F 3 "" H 8750 3300 50  0000 C CNN
+	1    8750 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 3300 8750 3400
+Wire Wire Line
+	8550 3300 8550 3400
+$Comp
+L devices:R_1206 R16
+U 1 1 5C179F05
+P 6250 1000
+F 0 "R16" H 6280 1020 50  0000 L CNN
+F 1 "1k" H 6280 960 50  0000 L CNN
+F 2 "resistors:R_0603" H 6250 850 50  0001 C CNN
+F 3 "" H 6250 1000 50  0000 C CNN
+	1    6250 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L devices:R_1206 R17
+U 1 1 5C17A10F
+P 6250 1100
+F 0 "R17" H 6280 1120 50  0000 L CNN
+F 1 "1k" H 6280 1060 50  0000 L CNN
+F 2 "resistors:R_0603" H 6250 950 50  0001 C CNN
+F 3 "" H 6250 1100 50  0000 C CNN
+	1    6250 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 1100 6350 1100
+Wire Wire Line
+	6800 1000 6350 1000
+Text Label 6500 1000 0    60   ~ 0
+TX
+Text Label 6500 1100 0    60   ~ 0
+RX
+$Comp
+L devices:R_1206 R20
+U 1 1 5C19B56C
+P 9450 3800
+F 0 "R20" H 9480 3820 50  0000 L CNN
+F 1 "1k" H 9480 3760 50  0000 L CNN
+F 2 "resistors:R_0603" H 9450 3650 50  0001 C CNN
+F 3 "" H 9450 3800 50  0000 C CNN
+	1    9450 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L devices:R_1206 R21
+U 1 1 5C19B746
+P 9450 4100
+F 0 "R21" H 9480 4120 50  0000 L CNN
+F 1 "1k" H 9480 4060 50  0000 L CNN
+F 2 "resistors:R_0603" H 9450 3950 50  0001 C CNN
+F 3 "" H 9450 4100 50  0000 C CNN
+	1    9450 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power-supply:+BATT #PWR0103
+U 1 1 5C19B7C8
+P 9450 3650
+F 0 "#PWR0103" H 9450 3500 50  0001 C CNN
+F 1 "+BATT" H 9465 3823 50  0000 C CNN
+F 2 "" H 9450 3650 50  0000 C CNN
+F 3 "" H 9450 3650 50  0000 C CNN
+	1    9450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-supply:GND #PWR0104
+U 1 1 5C19B869
+P 9450 4250
+F 0 "#PWR0104" H 9450 4000 50  0001 C CNN
+F 1 "GND" H 9450 4100 50  0000 C CNN
+F 2 "" H 9450 4250 50  0000 C CNN
+F 3 "" H 9450 4250 50  0000 C CNN
+	1    9450 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 3900 9450 3950
+Wire Wire Line
+	9450 4200 9450 4250
+Wire Wire Line
+	9450 3700 9450 3650
+Wire Wire Line
+	9450 3950 10500 3950
+Connection ~ 9450 3950
+Wire Wire Line
+	9450 3950 9450 4000
+Text Notes 1000 3250 0    60   ~ 0
+use MCP73832-2ACI/OT (4.2 V)
+Text Notes 950  5050 0    60   ~ 0
+use TPS3839G33DBZR
+Text Notes 2500 4900 0    60   ~ 0
+use TPS73630DBVT
 $EndSCHEMATC
