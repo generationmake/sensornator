@@ -1800,9 +1800,9 @@ Wire Wire Line
 Text Notes 1000 3250 0    60   ~ 0
 use MCP73832-2ACI/OT (4.2 V)
 Text Notes 950  5050 0    60   ~ 0
-use TPS3839G33DBZR
+use TPS3839G33DBZR\nthreshold voltage 3.08 V
 Text Notes 2500 4900 0    60   ~ 0
-use TPS73630DBVT
+use TPS73630DBVT\nfixed voltage 3.0 V
 Text Notes 2750 5550 0    60   ~ 0
 do not connect pin 4!!!
 $EndSCHEMATC
