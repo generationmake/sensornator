@@ -5,9 +5,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title "esp32 arduino"
-Date "2018-12-12"
-Rev "1.0"
+Title "Sensornator"
+Date "2019-04-12"
+Rev "1.1"
 Comp "generationmake"
 Comment1 ""
 Comment2 ""
@@ -59,7 +59,7 @@ ADC_3
 Text Label 9850 4050 0    60   ~ 0
 ADC_0
 Text Notes 500  650  0    47   ~ 0
-Copyright generationmake 2018\nsee full project documentation at http://ardutrx.generationmake.de
+Copyright generationmake 2019\nsee full project documentation at http://sensornator.generationmake.de
 Wire Wire Line
 	10500 4350 10400 4350
 Wire Wire Line
@@ -112,8 +112,6 @@ Wire Wire Line
 	9300 5800 9250 5800
 Wire Wire Line
 	8550 5900 8550 6000
-Text Notes 9150 1300 0    60   ~ 0
-Arduino Uno: SCK=13 MOSI=11\nArduino Leonardo: no spi\nArduino Mega: no spi\nArduino M0 pro: SCK=13 MOSI=11\nArduino Zero: SCK=13 MOSI=11\n\n
 Text Label 9850 2850 0    60   ~ 0
 ARDUINO_5
 Text Label 9850 2750 0    60   ~ 0

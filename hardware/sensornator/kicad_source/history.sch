@@ -5,9 +5,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
-Title "stromwaechter"
-Date "2019-03-10"
-Rev "1.0"
+Title "Sensornator"
+Date "2019-04-12"
+Rev "1.1"
 Comp "generationmake"
 Comment1 ""
 Comment2 ""
