@@ -50,4 +50,28 @@ Text Notes 1700 1600 0    60   ~ 0
 2019-04-12
 Text Notes 2550 1600 0    60   ~ 0
 Bernhard Mayer
+Text Notes 3500 1750 0    60   ~ 0
+added polarized capacitor (C12) to stabilze 3.0 V rail
+Text Notes 2550 1750 0    60   ~ 0
+Bernhard Mayer
+Text Notes 1700 1750 0    60   ~ 0
+2019-04-12
+Text Notes 3500 1900 0    60   ~ 0
+added switch (SW3) to cut off battery
+Text Notes 2550 1900 0    60   ~ 0
+Bernhard Mayer
+Text Notes 1700 1900 0    60   ~ 0
+2019-04-12
+Text Notes 3500 2050 0    60   ~ 0
+added ATECC608A (U6)
+Text Notes 2550 2050 0    60   ~ 0
+Bernhard Mayer
+Text Notes 1700 2050 0    60   ~ 0
+2019-04-12
+Text Notes 3500 2200 0    60   ~ 0
+added USB battery power bypass circuit (Q5)
+Text Notes 2550 2200 0    60   ~ 0
+Bernhard Mayer
+Text Notes 1700 2200 0    60   ~ 0
+2019-04-12
 $EndSCHEMATC
