@@ -22,7 +22,7 @@ AR Path="/5CB4789B" Ref="P?"  Part="1"
 AR Path="/5CB34EF4/5CB4789B" Ref="P1"  Part="1" 
 F 0 "P1" V 1875 1974 50  0000 C CNN
 F 1 "USB_OTG" V 1966 1974 50  0000 C CNN
-F 2 "mechanical-connectors:USB_Micro-B" V 2250 1950 50  0001 C CNN
+F 2 "CON_wuerth:WE_629105136821" V 2250 1950 50  0001 C CNN
 F 3 "" V 2250 1950 50  0000 C CNN
 	1    2300 2050
 	0    -1   1    0   

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/bernhard/projects/sensornator/hardware/sensornator/kicad_source/sensornator.sch)
-    (date "Fr 12 Apr 2019 09:26:57 CEST")
+    (date "Fr 12 Apr 2019 11:06:21 CEST")
     (tool "Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -75,7 +75,7 @@
       (tstamp 5C15725E))
     (comp (ref CON1)
       (value Micro_SDCard)
-      (footprint CON_wuerth:WE_693072010801)
+      (footprint CON_wuerth:WE_693071010811)
       (libsource (lib electrical-connectors) (part Micro_SDCard) (description "Micro SD Card Reader"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5C166AC7))
@@ -165,7 +165,7 @@
       (tstamp 5C19B746))
     (comp (ref P1)
       (value USB_OTG)
-      (footprint mechanical-connectors:USB_Micro-B)
+      (footprint CON_wuerth:WE_629105136821)
       (libsource (lib mechanical-connectors) (part USB_OTG) (description "micro/mini connector"))
       (sheetpath (names "/USB and Power/") (tstamps /5CB34EF4/))
       (tstamp 5CB4789B))

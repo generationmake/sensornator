@@ -44,4 +44,10 @@ Text Notes 2550 1450 0    60   ~ 0
 Bernhard Mayer
 Text Notes 1700 1450 0    60   ~ 0
 2019-04-12
+Text Notes 3500 1600 0    60   ~ 0
+changed micro SD card socket to push pull type
+Text Notes 1700 1600 0    60   ~ 0
+2019-04-12
+Text Notes 2550 1600 0    60   ~ 0
+Bernhard Mayer
 $EndSCHEMATC
