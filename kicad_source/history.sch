@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
 Title "Sensornator"
-Date "2019-04-12"
+Date "2021-01-22"
 Rev "1.1"
 Comp "generationmake"
 Comment1 ""
@@ -73,4 +73,10 @@ Text Notes 2550 2200 0    60   ~ 0
 Bernhard Mayer
 Text Notes 1700 2200 0    60   ~ 0
 2019-04-12
+Text Notes 1700 2350 0    60   ~ 0
+2021-01-22
+Text Notes 2550 2350 0    60   ~ 0
+Bernhard Mayer
+Text Notes 3500 2350 0    60   ~ 0
+changed C9 to 10uF (Reset)
 $EndSCHEMATC

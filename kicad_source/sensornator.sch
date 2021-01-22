@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "Sensornator"
-Date "2019-04-12"
+Date "2021-01-22"
 Rev "1.1"
 Comp "generationmake"
 Comment1 ""
@@ -58,7 +58,7 @@ ADC_3
 Text Label 9850 4050 0    60   ~ 0
 ADC_0
 Text Notes 500  650  0    47   ~ 0
-Copyright generationmake 2019\nsee full project documentation at http://sensornator.generationmake.de
+Copyright generationmake 2021\nsee full project documentation at https://github.com/generationmake/sensornator
 Wire Wire Line
 	10500 4350 10400 4350
 Wire Wire Line
@@ -298,7 +298,7 @@ L devices:C_0603 C9
 U 1 1 5C122B0F
 P 4600 3800
 F 0 "C9" H 4610 3870 50  0000 L CNN
-F 1 "100n" H 4610 3720 50  0000 L CNN
+F 1 "10u" H 4610 3720 50  0000 L CNN
 F 2 "capacitors:C_0603" H 4600 3650 50  0001 C CNN
 F 3 "" H 4600 3800 50  0000 C CNN
 	1    4600 3800
