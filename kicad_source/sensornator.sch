@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:sensornator-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -504,7 +503,7 @@ ARDUINO_9
 Text Label 5650 4750 0    60   ~ 0
 ARDUINO_6
 $Comp
-L MODULE_compute:ARDUINO CN1
+L sensornator-rescue:ARDUINO-MODULE_compute CN1
 U 1 1 5B0B2CBD
 P 10700 3200
 F 0 "CN1" H 10800 4950 60  0000 C CNN
