@@ -2840,6 +2840,9 @@
     (path "/00000000-0000-0000-0000-00005cb34ef4/00000000-0000-0000-0000-00005cb97ff8"
       (reference "#PWR09") (unit 1) (value "VCC") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005cb34ef4/b4ac073c-04ba-4a11-804e-8bc77ec13ee5"
+      (reference "#PWR010") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005c166f4e"
       (reference "#PWR027") (unit 1) (value "GND") (footprint "")
     )
@@ -3127,6 +3130,9 @@
     )
     (path "/00000000-0000-0000-0000-00005cb34ef4/00000000-0000-0000-0000-00005cb89804"
       (reference "R24") (unit 1) (value "4k7") (footprint "resistors:R_0603")
+    )
+    (path "/00000000-0000-0000-0000-00005cb34ef4/a5a112fe-48df-424a-9fb6-91e3fc5a417b"
+      (reference "R25") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005c112437"
       (reference "SW1") (unit 1) (value "TAST_VER") (footprint "mechanical-switches:WE_430182050816")
