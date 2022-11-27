@@ -3998,6 +3998,9 @@
     (path "/73b863f7-ccae-405d-8a60-db42c9e312b4"
       (reference "CN4") (unit 1) (value "SM04B-GHS-TB") (footprint "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal")
     )
+    (path "/00000000-0000-0000-0000-00005cb34ef4/3bcb6f8d-b575-44c9-9da6-61f5d4843e12"
+      (reference "CN5") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A")
+    )
     (path "/00000000-0000-0000-0000-00005c166ac7"
       (reference "CON1") (unit 1) (value "Micro_SDCard") (footprint "CON_wuerth:WE_693071010811")
     )
@@ -4024,9 +4027,6 @@
     )
     (path "/51f5b845-20fd-43a0-bae9-e4941081c6f5"
       (reference "F2") (unit 1) (value "SF-1206S050") (footprint "Fuse:Fuse_1206_3216Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005cb34ef4/00000000-0000-0000-0000-00005cb4789b"
-      (reference "P1") (unit 1) (value "USB_OTG") (footprint "CON_wuerth:WE_629105136821")
     )
     (path "/00000000-0000-0000-0000-00005cb34ef4/00000000-0000-0000-0000-00005cb4f91d"
       (reference "Q1") (unit 1) (value "2N7002") (footprint "Package_TO_SOT_SMD:SOT-23")
