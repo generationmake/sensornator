@@ -6,7 +6,7 @@
 
   (title_block
     (title "Sensornator")
-    (date "2022-11-01")
+    (date "2022-11-27")
     (rev "1.2")
     (company "generationmake")
     (comment 4 "This documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2.")
@@ -3830,8 +3830,14 @@
     (path "/00000000-0000-0000-0000-00005c0c62e6"
       (reference "#PWR034") (unit 1) (value "+3V3") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005cb34ef4/eeb02975-d95a-4b28-9245-212247ceb198"
+      (reference "#PWR035") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005c0c61cd"
       (reference "#PWR036") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005cb34ef4/a46b1f79-095a-41ba-90dc-d9ad600adf85"
+      (reference "#PWR037") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005c0c60d2"
       (reference "#PWR038") (unit 1) (value "GND") (footprint "")
@@ -4117,6 +4123,12 @@
     )
     (path "/00000000-0000-0000-0000-00005cb34ef4/a5a112fe-48df-424a-9fb6-91e3fc5a417b"
       (reference "R25") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005cb34ef4/6b626c0c-34c5-48ba-9884-c1bfaa81c1bc"
+      (reference "R26") (unit 1) (value "5k1") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005cb34ef4/4befe8ef-4b5c-4cc0-b63c-420828369471"
+      (reference "R27") (unit 1) (value "5k1") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005c112437"
       (reference "SW1") (unit 1) (value "TAST_VER") (footprint "mechanical-switches:WE_430182050816")
